@@ -1,0 +1,62 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #111;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+        }
+        .container a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+        }
+        .container img:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            color: #333;
+        }
+        .post {
+            margin-bottom: 40px;
+        }
+        .post img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
